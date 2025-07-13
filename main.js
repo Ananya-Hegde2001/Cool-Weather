@@ -22,7 +22,7 @@ gradient = gradient.slice(0, -2) + '), rgb(85 93 108)';
 
 rotateDiv.style.background = gradient;
 
-
+//var toggles to the Selector All
 var toggles = document.querySelectorAll('.toggle');
 var tempElement = document.querySelector('.temp');
 
