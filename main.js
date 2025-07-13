@@ -27,7 +27,7 @@ var toggles = document.querySelectorAll('.toggle');
 var tempElement = document.querySelector('.temp');
 
 let isAnimating = false; // Add flag to indicate if animation is active
-
+//function forEach 
 toggles.forEach(function(toggle) {
   toggle.addEventListener('click', function() {
     if (this.classList.contains('active') || isAnimating) { // Check if animation is active
