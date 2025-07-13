@@ -22,7 +22,7 @@ gradient = gradient.slice(0, -2) + '), rgb(85 93 108)';
 
 rotateDiv.style.background = gradient;
 
-
+//This is the toggle Buttom
 var toggles = document.querySelectorAll('.toggle');
 var tempElement = document.querySelector('.temp');
 
